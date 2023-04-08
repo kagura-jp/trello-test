@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+          // pages/404.js
+export default function Custom404() {
+  return <h1>404 - Page Not Found</h1>
+}
